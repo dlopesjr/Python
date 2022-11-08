@@ -58,4 +58,10 @@ mkdir -p ~/.fonts
 git clone https://github.com/pdf/ubuntu-mono-powerline-ttf.git ~/.fonts/ubuntu-mono-powerline-ttf
 fc-cache -vf
 
+**#Instalar última versão do Python e deixa-lo global**
+pyenv update
+pyenv install -l
+pyenv install 3.11.0
+pyenv global 3.11.0
+python --version
 # REBOOT!!!!!!!!!!!!!!!!!!!!!
